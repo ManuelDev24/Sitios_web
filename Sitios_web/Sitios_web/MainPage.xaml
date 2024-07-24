@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sitios_web.MainPage">
+
+    <StackLayout Padding="5" BackgroundColor="#f5f6fa" Orientation="Vertical">
+        <StackLayout Padding="5" BackgroundColor="#f5f6fa" Orientation="Horizontal">
+            <BoxView Color="#fbc531" WidthRequest="5"/>
+            <Image Source="NARUTO.jpg" HeightRequest="70"/>
+            <BoxView Color="#fbc531" WidthRequest="5"/>
+            <Label
+            FontAttributes="Bold"
+            FontSize="20"
+            Text="Mis aplicaciones"
+            TextColor="#273c75"
+            VerticalTextAlignment="Center"
+            HorizontalTextAlignment="Center"/>
+            <BoxView Color="#fbc531" WidthRequest="5"/>
+            <Button 
+            BackgroundColor="red" 
+            HeightRequest="100" 
+            Text="Ver Web" 
+            FontSize="16" 
+            TextColor="White" 
+            x:Name="btnVer"/>
+            <BoxView Color="#fbc531" WidthRequest="5"/>
+        </StackLayout>
+
+        <Frame BackgroundColor="#3742fa" Padding="16" CornerRadius="50" BorderColor="YellowGreen">
+            <Label 
+            Text="Mis Aplicaciones" 
+            HorizontalTextAlignment="Center" 
+            TextColor="White" 
+            FontSize="20"/>
+        </Frame>
+
+        <ScrollView>
+            <StackLayout>
+                <Button 
+                BackgroundColor="#dcdde1" 
+                HeightRequest="130" 
+                Text="Mi Canal de Youtube"
+                FontSize="20" 
+                TextColor="DarkSlateBlue"
+                FontAttributes="Bold"
+                ImageSource="YOUTUBE.png"
+                CornerRadius="50" 
+                BorderColor="#ff6b81" 
+                BorderWidth="5" 
+                x:Name="BTNVER1"/>
+
+                <Button 
+                BackgroundColor="#dcdde1" 
+                HeightRequest="130" 
+                Text="Mi Linkedin"
+                FontSize="20" 
+                TextColor="DarkSlateBlue"
+                FontAttributes="Bold"
+                ImageSource="LINKEDIN.png"
+                CornerRadius="50" 
+                BorderColor="#ff6b81" 
+                BorderWidth="5" 
+                x:Name="btnver2"/>
+
+                <Button 
+                BackgroundColor="#ff6b81" 
+                HeightRequest="130" 
+                Text="Mi Twitter"
+                FontSize="20" 
+                TextColor="DarkSlateBlue"
+                FontAttributes="Bold"
+                ImageSource="TWITTER.png"
+                CornerRadius="50" 
+                BorderColor="#ff6b81" 
+                BorderWidth="5" 
+                x:Name="btnver3"/>
+
+                <Button 
+                BackgroundColor="#dcdde1" 
+                HeightRequest="130" 
+                Text="Mi Facebook"
+                FontSize="20" 
+                TextColor="DarkSlateBlue"
+                FontAttributes="Bold"
+                ImageSource="FACEBOOK.png"
+                CornerRadius="50" 
+                BorderColor="#ff6b81" 
+                BorderWidth="5" 
+                x:Name="btnver4"/>
+
+                <Button 
+                BackgroundColor="#dcdde1" 
+                HeightRequest="130" 
+                Text="Mi Netflix"
+                FontSize="20" 
+                TextColor="DarkSlateBlue"
+                FontAttributes="Bold"
+                ImageSource="NETFLIX.png"
+                CornerRadius="50" 
+                BorderColor="#ff6b81" 
+                BorderWidth="5" 
+                x:Name="btnver6"/>
+
+                <Button 
+                BackgroundColor="red" 
+                HeightRequest="100" 
+                Text="JAVIER BERIGUETE BERIGUETE" 
+                FontSize="20" 
+                TextColor="White"
+                ImageSource="https://www.oymas.edu.do/tools/avatar-upload/files/04ffhO3EnfrgACV12-EISN-1-183-avatar.jpg"
+                CornerRadius="20"
+                BorderColor="#353b48"
+                BorderWidth="5"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+
+
+</ContentPage>
